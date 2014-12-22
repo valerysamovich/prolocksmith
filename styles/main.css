@@ -1,0 +1,232 @@
+/*
+Prolocksmithfl App 2013 - 1.0
+Created April 4th 2013
+Created by Valery Y. Samovich
+Locksmith Business Application
+*/
+
+/* Main styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#fadeshow1 {
+	margin: auto;
+	padding:0px;
+}
+.orange {
+	color:rgb(239,161, 21); /* orange */
+	font-weight:normal;
+}
+#google {
+	float:inherit;
+}
+#date {
+	float:right;
+	font-size:14px;
+}
+/* End of main */
+
+/* Header styles */
+#header {
+	background: rgb(73, 50, 39); /* dark brown */
+}
+#header-top {
+	width:900px;
+	margin:0 auto;
+	padding:5px;
+	height:20px;
+	color:white;
+	text-align:left;
+}
+#header-middle {
+	width:900px;
+	margin:0 auto;
+	height:120px;
+}
+#header-logo {
+	text-align:center;
+	font-size:44px;
+	color:#FFF; /* white */
+	font-weight:bold;
+}
+#header-description {
+	text-align:center;
+	font-size:16px;
+	color: #FFF; /* white */
+}
+#header-phone {
+	text-align:center;
+	font-size:32px;
+	color:#FFF; /* white */
+	font-weight:bold;
+}
+/* End of header */
+
+/* Navigation styles */
+#nav {
+	background-color: rgb(239,161, 21); /* orange */
+}
+#nav-inner {
+	width:900px;
+	margin:0 auto;
+}
+#nav ul {
+	padding:10px 300px;
+	height:18px;
+}
+#nav li {
+	display:inline;
+}
+#nav li a {
+	color: rgb(73, 50, 39);
+	text-decoration: none;
+	text-align: center;
+}
+#nav-inner ul li a:hover {
+	color: white;
+}
+/* End of nav */
+
+/* Content */
+#content-index {width:900px;margin:0 auto;height:510px; /* height of index */}
+#content-about {width:900px ;margin:0 auto; height:440px; /* height of about */}
+#content-services {width:900px; margin:0 auto; height:400px; /* height of services */}
+#content-contact { width:900px ;margin:0 auto; height:440px; /* height of contact */}
+#content-services-description { width:900px; margin:0 auto; height:550px; /* height of residential */}
+
+#table {
+	margin: 40px auto 20px;
+}
+#primarycontent { /*primary content */
+	float:left;
+	width:680px;
+	padding-right:20px;
+}
+#content-header {
+	font-size:24px;
+	font-weight:bold;
+	color:rgb(73, 50, 39); /* dark brown */
+	padding: 20px 0px 5px 0px;
+	border-bottom:1px solid rgb(239,161, 21); /* orange */
+}
+#content-text {
+	font-size:18px;
+	padding: 20px 0px 10px;
+}
+#content-description {
+	padding: 20px 0px 10px;
+}
+#content-services li {
+	line-height:18px;
+	text-indent:20px;
+	list-style-type:none;
+	font-size:14px;
+}
+#content li {
+	color:rgb(239,161, 21); /* orange */
+	text-indent:20px;
+	list-style-type:none;
+}
+#rightcolumn { /*right column */
+	float:left;
+	width:200px;
+	padding-top:20px;
+}
+#column-header {
+	padding:10px 0px;
+	margin-bottom:10px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	background-color:rgb(73, 50, 39); /* dark brown */
+	color:#FFF;
+}
+#column-text {
+	text-align:justify;
+	font-size:14px;
+}
+#column-image {padding:10px 0px;}
+#column-footer {
+	padding:10px 0px;
+	margin:5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	background-color:rgb(239,161, 21); /* orange */
+	color:rgb(73, 50, 39); /* dark brown */
+}
+#column-footer a {
+	text-decoration:none;
+	color:rgb(73, 50, 39); /* dark brown */
+}
+#column-footer a:hover {
+	color:#FFF; /* white */
+}
+/* End of content */
+
+/* Footer styles */
+#footer {
+	border-top: 1px solid rgb(239,161, 21); /* orange */
+	width:900px;
+	margin:0px auto;
+}
+#footer-nav {
+	width:900px;
+	margin:0 auto;
+}
+#footer ul {
+	text-align: center;
+	padding:10px 300px;
+	height:20px;
+}
+#footer li {
+	display:inline;
+}
+#footer a {
+	font-size:14px;
+	color: rgb(239,161, 21); /* orange */
+	text-decoration: none;
+	text-align: center;
+}
+#footer a:hover {
+	color: rgb(73, 50, 39); /* dark brown */
+}
+#footer-sign {
+	color:rgb(239,161, 21); /* orange */
+	text-align:center;
+	font-size:12px;
+}
+/* End of footer */
+
+/* Form styles */
+legend {
+	margin:0px 20px 10px 40px;
+	padding:0px 10px;
+	color:rgb(239,161, 21); /* orange */
+}
+label {
+	width: 250px;
+	float:left;
+	font-size:14px;
+	text-align:right;
+	margin-right: 10px;
+}
+input, textarea {
+	float: none;
+	display: inline;
+}
+.row {
+	margin: 5px auto;
+}
+.submit {
+	text-align: center;
+	margin-bottom:20px;
+}
+#blue {
+	color: rgb(48, 152, 242);
+}
+/* End of form */
